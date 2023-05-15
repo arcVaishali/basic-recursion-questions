@@ -28,6 +28,6 @@ int main() {
         Solution object ; 
         
         int left  =  0 , right = s.length() - 1; 
-        object.isPalindrome( s , left , right );
+        cout << object.isPalindrome( s , left , right ) <<endl;
     }
 }
